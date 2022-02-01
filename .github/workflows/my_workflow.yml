@@ -22,5 +22,5 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Show helo world world + date
-        run: echo "Hello World! today is (%date + '%Y-%m-%dT%H:%M:%S)"
+      - name: Show helo world world $date --date='@2147483647
+        run: echo "Hello World! today is $(%date + '%Y-%m-%dT%H:%M:%S)"
